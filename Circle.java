@@ -15,14 +15,14 @@ public class Circle {
             double circumference = 2 * Math.PI * r;
             double area = Math.PI * Math.pow(r, 2);
 
-            System.out.println("Circumference of circle is: " + circumference);
-            System.out.println("Area of circle is: " + area);
+            System.out.printf("Circumference of circle is: %.2f\n", circumference);
+            System.out.printf("Area of circle is: %.2f ", area);
 
         }
         else{
-            double volume = (4.0/3.0) * Math.PI * Math.pow(r, 3);
+            double volume = (4.0 / 3.0) * Math.PI * Math.pow(r, 3);
 
-            System.out.println("Volume of sphere is: " + volume);
+            System.out.printf("Volume of sphere is: %.2f ", volume);
         }
 
         scanner.close();
